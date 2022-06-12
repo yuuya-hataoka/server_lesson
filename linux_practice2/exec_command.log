@@ -1,0 +1,178 @@
+    1  docker stop centos7
+    2  exeit
+    3  exit
+    4  ls
+    5  cd /root
+    6  ls
+    7  mkdir server_lesson && cd server_lesson
+    8  yum update -y && yum -y install git
+    9  git version
+   10  git init
+   11  touch first.txt
+   12  mkdir -p linux_practice1/public
+   13  ls
+   14  touch linux_practice1/public/index.php
+   15  ls public
+   16  ls /public
+   17  cd linux_practice1
+   18  cd public
+   19  ls
+   20  cd -
+   21  cd -
+   22  cd /
+   23  cd /server_lesson
+   24  cd root
+   25  cd server_lesson
+   26  git status
+   27  git add first.txt
+   28  git add linux_practice1
+   29  git commit -m '練習問題１'
+   30  git log
+   31  docker stop centos7
+   32  exit
+   33  cd root
+   34  ls
+   35  cd server_lesson
+   36  ls
+   37  git status
+   38  git diff
+   39  git add .
+   40  git status
+   41  git commit -m 'first commit'
+   42  git config user.email "yuuya.a.28@gmail.com"
+   43  git config user.name "yuuya-hataoka"
+   44  git commit -m 'first commit'
+   45  cd linux_practice1/public
+   46  cp index.php index_bk.php
+   47  ls
+   48  cd .
+   49  cd ..
+   50  cp public tmp
+   51  ls
+   52  cp -r public tmp
+   53  ls
+   54  cd tmp
+   55  ls
+   56  rm index_bk.php
+   57  ls
+   58  cd ..
+   59  cd ..
+   60  touch README.md
+   61  ls
+   62  git status
+   63  git add .
+   64  git status
+   65  git commit -m 'practice1-4 finish'
+   66  git log
+   67  exit
+   68  cd root
+   69  cd server_lesson
+   70  ls
+   71  vi READEME.md
+   72  vi READEME.md
+   73  vi READEME.md
+   74  vi READEME.md
+   75  git status
+   76  ls
+   77  vi READEME.md
+   78  rm README.md
+   79  ls
+   80  cp READEME.md README.md
+   81  ls
+   82  vi README.md
+   83  vi README.md
+   84  rm READEME.md
+   85  ls
+   86  vi README.md
+   87  ls -la
+   88  rm README.md.swp
+   89  cd README.md
+   90  ls
+   91  rm /README.md.swp
+   92  rm .README.md.swp
+   93  vi README.md
+   94  git status
+   95  git add .
+   96  git log
+   97  git commit -m 'practice1-5 finish'
+   98  git log
+   99  exit
+  100  cd root
+  101  cd server_lesson
+  102  ls
+  103  mkdir -p linux_practice2/documents
+  104  ls
+  105  exit
+  106  cd root
+  107  cd server_lesson
+  108  cd linux_practice2
+  109  cd documents
+  110  touch gizumo{01..50}.md
+  111  ls
+  112  git add .
+  113  git commit -m 'practice2-1 finish'
+  114  git log
+  115  exit
+  116  cd root
+  117  cd server_lesson
+  118  exit
+  119  cd root
+  120  cd server_lesson
+  121  cd linux_practice2
+  122  touch .gitignore
+  123  ls
+  124  ls -a
+  125  cd trash
+  126  ls
+  127  cd ..
+  128  vi .gitignore
+  129  cd ..
+  130  git status
+  131  ls /
+  132  ls /root
+  133  ls /server_lesson
+  134  ls server_lesson
+  135  ls
+  136  ls /linux_pracrice2
+  137  ls linux_practice2
+  138  git ls-tree master
+  139  cd linux_practice2
+  140  cd trash
+  141  git ls-tree master
+  142  cd ..
+  143  vi .gitignore
+  144  vi .gitignore
+  145  cd trash
+  146  git ls-tree master
+  147  cd ..
+  148  vi .gitignore
+  149  vi .gitignore
+  150  cd trash
+  151  git ls-tree master
+  152  git ls-files
+  153  git status
+  154  cd ..
+  155  vi .gitignore
+  156  git status
+  157  vi .gitignore
+  158  cd trash
+  159  vi .gitignore
+  160  ls -a
+  161  cd ..
+  162  vi .gitignore
+  163  git rm --cached trash/gizumo{20..29}.md
+  164  cd trash
+  165  git ls-files
+  166  git status
+  167  cd ..
+  168  vi .gitignore
+  169  cd trash
+  170  git status
+  171  cd ..
+  172  vi .gitignore
+  173  cd trash
+  174  git status
+  175  cd ..
+  176  touch exec_command.log
+  177  ls
+  178  history 300 > exec_command.log
